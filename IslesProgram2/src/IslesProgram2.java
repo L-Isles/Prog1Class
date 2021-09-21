@@ -33,21 +33,44 @@ public class IslesProgram2 {
 			case 1:
 				result = firstNum + secondNum + thirdNum;
 		System.out.println("The result of adding these numbers is: " + result);
+		
+		if (thirdNum > result)
+			System.out.println(result +" is less than " + thirdNum + ", which is the third number you selected.");
+		else
+			System.out.println(result + " is greater than " + thirdNum + ", which is the third number you selected.");
 		break;
 		
 			case 2:
 				result = firstNum - secondNum - thirdNum;
 		System.out.println("The result of subtracting these numbers is: " + result);
+		
+		if (thirdNum > result)
+			System.out.println(result +" is less than " + thirdNum + ", which is the third number you selected.");
+		else
+			System.out.println(result + " is greater than " + thirdNum + ", which is the third number you selected.");
+		
 		break;
 		
 			case 3:
 				result = firstNum * secondNum * thirdNum;
 				System.out.println("The result of multiplying these numbers is: " + result);
+				
+				if (thirdNum > result)
+					System.out.println(result +" is less than " + thirdNum + ", which is the third number you selected.");
+				else
+					System.out.println(result + " is greater than " + thirdNum + ", which is the third number you selected.");
+				
 				break;
 				
 			case 4:
 				result = firstNum / secondNum / thirdNum;
 				System.out.println("You probably shouldn't be dividing three numbers: " + result);
+				
+				if (thirdNum > result)
+					System.out.println(result +" is less than " + thirdNum + ", which is the third number you selected.");
+				else
+					System.out.println(result + " is greater than " + thirdNum + ", which is the third number you selected.");
+				
 				break;
 				
 			case 5:
@@ -56,7 +79,7 @@ public class IslesProgram2 {
 			default:
 				System.out.println("Please make a valid selection!");
 				break;
-			
+				
 				
 		
 	}
