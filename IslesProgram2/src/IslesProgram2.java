@@ -74,6 +74,7 @@ public class IslesProgram2 {
 				break;
 				
 			case 5:
+				System.out.println("Thank you for using my program! Enjoy the rest of your day!");
 				System.exit(option);
 			
 			default:
